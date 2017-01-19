@@ -10,7 +10,8 @@ $(document).ready(function() {
     $(window).scroll(function() { //changer la couleur de la barre de navigation
         if ($(window).scrollTop() < $(window).height()) {
             $("nav").css({
-                "background-color": "black"
+                "background-color": "black",
+                "transition":"1s"
             });
         }
     });
