@@ -13,7 +13,8 @@ document.getElementById('mute').style.backgroundImage = "url('./assets/img/vol_o
 document.getElementById('mute').style.backgroundSize = "cover";
 document.getElementById('mute').style.backgroundColor = "#000";
 document.getElementById('mute').style.border = "none";
-document.getElementById('mute').style.ouline = "none";
+document.getElementById('mute').style.outline = "none";
+document.getElementById('mute').style.cursor = "pointer";
 
 function muter() {
     if (generic.volume == 0) {
