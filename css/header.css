@@ -1,0 +1,65 @@
+#mainHeader {
+height: 60em;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+/*background-color: #3F51B5;*/
+margin-top: 8em;
+}
+
+
+.blocTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.photo {
+    background: url(../assets/img/jedi.jpg) no-repeat;
+    background-size: cover;
+    /*image ronde:*/
+    overflow: hidden;
+    border-radius: 13.750em;
+    width: 13.750em;
+    height: 13.750em;
+    transition: 1s;
+    margin-bottom: 2em;
+    opacity: 0.5;
+}
+
+.photo:hover {
+    background-image: url(../assets/img/mini_avatar.jpg);
+    opacity: 1;
+    transition: 1s;
+}
+
+.mainTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainTitle p {
+  font-size: 1.6em;
+  color: #fff;
+}
+
+.mainTitle h1 {
+  color: #fff;
+}
+
+/*citation*/
+
+#mainHeader h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.3em;
+  margin-bottom: 8em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
