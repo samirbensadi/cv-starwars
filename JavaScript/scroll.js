@@ -7,8 +7,8 @@ $(document).ready(function() {
         }, speed); // Go
         return false;
     });
-    $(window).scroll(function() {
-        if ($(window).scrollTop() > $(window).height()) {
+    $(window).scroll(function() { //changer la couleur de la barre de navigation
+        if ($(window).scrollTop() < $(window).height()) {
             $("nav").css({
                 "background-color": "black"
             });
