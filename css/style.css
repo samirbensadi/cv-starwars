@@ -30,14 +30,14 @@ section {
   height: 60em;
   width: 100%;
   display: flex;
-  filter: blur(3px);
-  transition: 0.5s
+  /*filter: blur(3px);
+  transition: 0.5s*/
 }
 
-section:hover {
+/*section:hover {
   filter: none;
   transition: 0.5s;
-}
+}*/
 
 /*footer*/
 footer {
