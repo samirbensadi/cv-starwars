@@ -11,7 +11,7 @@ $(document).ready(function() {
         if ($(window).scrollTop() < $(window).height()) {
             $("nav").css({
                 "background-color": "black",
-                "transition":"1s"
+                "transition":"2s"
             });
         }
     });
