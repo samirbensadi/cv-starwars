@@ -9,7 +9,7 @@ $(document).ready(function() {
     });
 
     $(window).scroll(function() { //changer la couleur de la barre de navigation au scroll
-        if ($(window).scrollTop() > 50) {
+        if ($(window).scrollTop() > 70) {
             $("nav").css({
                 "background-color": "black",
                 "transition": "2s"
