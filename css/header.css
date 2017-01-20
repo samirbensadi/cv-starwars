@@ -42,6 +42,7 @@ margin-top: 8em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation-delay: 0.5s;
 }
 
 .mainTitle p {

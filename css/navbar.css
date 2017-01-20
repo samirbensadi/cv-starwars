@@ -52,6 +52,7 @@ nav {
 .socialIcon {
   display: flex;
   flex-direction: row;
+  animation-delay: 2s;
 }
 
 .socialIcon li {

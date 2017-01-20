@@ -67,6 +67,7 @@ footer {
   border: none;
   border-radius: 10px;
   box-shadow: 0px 1px 90px 8px #fe0000;
+  margin-bottom: 2em;
 }
 
 .infos ul {
@@ -80,14 +81,14 @@ footer {
 .infos ul li {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 1em;
 }
 
 .infos ul li p {
-  margin-left: 2em;
+  margin: 2em;
   color: #fff;
 }
 
