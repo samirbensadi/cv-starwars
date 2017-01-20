@@ -7,7 +7,8 @@ $(document).ready(function() {
         }, speed); // Go
         return false;
     });
-    $(window).scroll(function() { //changer la couleur de la barre de navigation
+
+    $(window).scroll(function() { //changer la couleur de la barre de navigation au scroll
         if ($(window).scrollTop() > 50) {
             $("nav").css({
                 "background-color": "black",
@@ -16,7 +17,7 @@ $(document).ready(function() {
         } else {
             $("nav").css({
                 "background-color": "transparent",
-                "transition": "1s"
+                "transition": "0.5s"
             });
         }
     });
