@@ -8,10 +8,15 @@ $(document).ready(function() {
         return false;
     });
     $(window).scroll(function() { //changer la couleur de la barre de navigation
-        if ($(window).scrollTop() < $(window).height()) {
+        if ($(window).scrollTop() > 50) {
             $("nav").css({
                 "background-color": "black",
-                "transition":"2s"
+                "transition": "2s"
+            });
+        } else {
+            $("nav").css({
+                "background-color": "transparent",
+                "transition": "1s"
             });
         }
     });
