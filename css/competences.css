@@ -5,19 +5,11 @@
   align-items: center;
   background-image: url(../assets/img/jaku.jpg);
   background-size: cover;
-  /*margin-top: 5em;*/
-  /*background: url(../assets/img/star_faucon.jpg) center 0 no-repeat fixed;*/
 }
 
-#competences h2 {
-  margin-top: 1.5em;
-  font-size: 3em;
-  text-transform: uppercase;
-}
 
 #competences ul {
-  margin: 5em;
-  padding-top: 5em;
+  margin: auto;
   width: 80%;
   display: flex;
   flex-direction: row;
